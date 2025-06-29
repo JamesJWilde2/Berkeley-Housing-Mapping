@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mapping the Downtown Berkeley housing boom</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-rendering: optimizeLegibility;
+        }
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #f05349;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fffbaf;
+            font-size: 0.85em;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Towering housing is coming to Berkeley—at some point</h1>
+            <p class="subhead">At least 31 housing projects have been approved for 
+                Downtown Berkeley since the start of 2019, but they could take a 
+                while to be built</p>
+        </div>
+        <div class="byline">
+            <p>By <a href="https://github.com/JamesJWilde2">James Wilde</a></p>
+        </div>
+        <p>One of the first things I noticed when I moved to Berkeley in 2023 was the 
+            empty storefronts. Along Center, Shattuck, Oxford, and other streets, I noticed 
+            long stretches of closed businesses, fenced off or boarded up. I assumed they had 
+            closed due to the pandemic, and being the curious, investigative person that I am, 
+            I never looked into it. 
+</p>
+        <p>Two years later, I had the bright idea to map empty storefronts in Downtown Berkeley. 
+            I quickly learned that most of the empty storefronts are actually sites for planned 
+            multi-family housing projects—mostly in the form of large towers—that just haven’t 
+            broken ground yet. This opened up a steady stream of questions: why haven’t these 
+            housing projects broken ground? When did these projects get approved? And just how 
+            many housing towers are coming to Berkeley?</a></p>
+
+               <figure>
+            <img
+                src="berkeley-housing.png">
+        </figure>
+
+        <p>The first thing to know is that in 2019, California 
+            passed <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB330&search_keywords=housing">Senate Bill 330</a>, 
+            which effectively streamlined the process for building new housing and 
+            limited the ability of cities to slow or stop new developments. 
+            My research led me 
+            to <a href="https://www.google.com/maps/d/u/1/viewer?mid=1DAOhWMGII579mvz7sIghdMN-XJWSAOg&ll=37.869524116184046%2C-122.2622703798503&z=16">a map</a>
+             of development apparently created by 
+            Eric Gellerman, a realtor. This gave me a sense of the scope of 
+            Berkeley’s development boom, but I wanted to dig into it further, 
+            using verifiable records. </p>
+
+        <p>I asked Berkeley’s Planning and Development Department for existing 
+            maps of housing developments, and Jim Bondi, a management analyst 
+            told me, “That information does exist, but it will require some 
+            work for you to extract it.” He wasn’t joking.</p>
+
+        <p>I ended up scraping and reviewing every Berkeley Zoning Adjustments 
+            Board <a href="https://berkeleyca.gov/your-government/boards-commissions/zoning-adjustments-board">meeting minutes</a> 
+            document since the start of 2019. 
+            I also reviewed 
+            Berkeley’s <a href="https://aca.cityofberkeley.info/CitizenAccess/Default.aspx">records</a>
+             of active land use reviews.</p>
+
+        <iframe title="Downtown Berkeley's housing boom is a work in progress" aria-label="Locator map" id="datawrapper-chart-TDHIk" src="https://datawrapper.dwcdn.net/TDHIk/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="658" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+        </script>
+
+        <p>These documents paint a pretty clear picture: a lot of tall housing 
+            towers are planned for Downtown Berkeley, but most of them haven’t 
+            been finished, and due 
+            to <a href="https://www.costar.com/article/1261899566/berkeley-officials-approve-citys-largest-housing-tower-that-developer-says-may-not-get-built">the cost of building</a>, 
+            it’s not clear when 
+            they will be finished. But at some point, it seems, Berkeley is going 
+            to be changing.</p>
+
+        <p>There is much more to write about this, 
+            and I will continue to add to this story,
+            but for now, done is better than perfect!</p>
+
+    </div>
+    <div class="footer">
+        <div class="content">
+            <p>This project was completed as part of the Lede Program. Check out the repository.</p>
+        </div>
+    </div>
+</body>
+
+</html>
