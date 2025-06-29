@@ -26,7 +26,7 @@ To define the general boundaries of Downtown Berkeley, I referenced maps from th
 * Does not include single family dwellings.
 * Does not include special Medak Center theatre housing.
 * Only includes new developments—not additions or extensions.
-* Includes data from the beginning of 2019 until May 25, 2022. Only includes projects proposed or approved since the start of 2019.
+* Only includes projects proposed or approved since the start of 2019 up until May 22, 2025.
 * The year the city approved is based on zoning committee approval years. The last date approved in the city's data is listed. Completion dates are based on building permit finaled dates.
 
 ## Analysis:
