@@ -48,9 +48,8 @@ I feel like I barely scratched the surface of what I can do with this analysis, 
 ## Future wish list:
 There’s a ton that I feel I could add to this project, and I hope to at some point! Some ideas:
 * I did my best with creating the custom dataset data, but there are some loose ends I’d like to check up on, including actually visiting each site to verify the state of each project.
-* Rather than manually reviewing each minutes document that I scraped, I think I could take advantage of Natural PDF next time to extract the data I wanted.
+* Rather than manually reviewing each minutes document that I scraped, I think I could take advantage of something like Natural PDF next time to extract the data I wanted.
 * The project write-up could certainly use some sprucing up.
 * I could spend hours and hours refining my maps and visualizations.
-* I collected data on the number of below market rate units for each project, but I’ve hardly even touched that in my analysis. I see a potential stacked bar chart  in my future.
 
 And that’s just scratching the surface. Stay tuned!
